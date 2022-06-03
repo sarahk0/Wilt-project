@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container fluid">
+  <h1>Banana Bacterial Wilt</h1>
+  <p>
+      <h4>What is banana bacterial wilt?</h4>
+    This  is a disease that causes a banana plant to rot from the inside out. The disease is triggered by the bacteria Xanthomonas vasicola pv. musacearum (Xvm), formerly known as Xanthomonas campestris pv.    
+    Caused by the bacterium Xanthomonas campestris pv. musacearum and previously known only in Ethiopia, where it affects bananas and its close relative Ensete, Banana Xanthomonas Wilt (BXW) is spreading through East Africa.
+    Bacterial diseases of banana and enset can be classified into three distinct groups:<br> i) Ralstonia-associated diseases (Moko/Bugtok disease caused by Ralstonia solanacearum and banana blood disease caused by R. syzygii subsp. celebesensis); <br>ii) Xanthomonas wilt of banana and enset, caused by Xanthomonas campestris pv.
+  
+  </p>
+  {% load static %} <img src="{% static 'img/wilt.jpg' %}" alt="home">
+  {% load static %} <img src="{% static 'img/wilt1.jpg' %}" alt="home">
+  {% load static %} <img src="{% static 'img/wilt2.jpg' %}" alt="home">
+  {% load static %} <img src="{% static 'img/wilt3.jpg' %}" alt="home">
+  {% load static %} <img src="{% static 'img/wilt4.jpg' %}" alt="home">
+  {% load static %} <img src="{% static 'img/wilt5.jpg' %}" alt="home">
+  {% load static %} <img src="{% static 'img/wilt6.jpg' %}" alt="home">
+  {% load static %} <img src="{% static 'img/wilt7.jpg' %}" alt="home">
+  
+  <div class="contact_form wow fadeInLeft">
+    <form class="submitphoto_form">
+      <input type="text" class="wp-form-control wpcf7-text" placeholder="Your name">
+      <input type="mail" class="wp-form-control wpcf7-email" placeholder="Email address">          
+      <input type="text" class="wp-form-control wpcf7-text" placeholder="Subject">
+      <textarea class="wp-form-control wpcf7-textarea" cols="30" rows="10" placeholder="What would you like to ask us"></textarea>
+      <input type="submit" value="Submit" class="wpcf7-submit">
+      <a href="{%url 'return' %}"></a>
+    </form>
+  
+  
+  
+  
+</div>
+{% endblock content %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
