@@ -1,1 +1,1 @@
-web.gunicon bw_project.wsgi --log-file--
+web:gunicorn bw_project.wsgi --log-file--
